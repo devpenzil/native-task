@@ -19,6 +19,10 @@ target 'nativeTask' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'react-native-view-shot', :path => '../node_modules/react-native-view-shot'
+
+  pod 'RNShare', :path => '../node_modules/react-native-share'
+
   target 'nativeTaskTests' do
     inherit! :complete
     # Pods for testing

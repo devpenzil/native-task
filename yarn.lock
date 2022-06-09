@@ -5591,6 +5591,11 @@
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz"
   "version" "0.0.6"
 
+"react-native-share@^7.6.1":
+  "integrity" "sha512-7lQMQoBO6IPd9KWEEKX/DE1fawJnEMb2WALujVZT2JaN9q5LekL9VRc5qVSms9fuk3Vu1VzlDYJBAcvGiU4YhQ=="
+  "resolved" "https://registry.npmjs.org/react-native-share/-/react-native-share-7.6.1.tgz"
+  "version" "7.6.1"
+
 "react-native-view-shot@^3.3.0":
   "integrity" "sha512-dc3ZHCd0lvn1jtSI8bPQDta8YxzCvZ73vA8zzFH4S3TRlXLe8r5DF3wUUBlWv1p/bxbEa/A0J4kMUPeVt/v8TQ=="
   "resolved" "https://registry.npmjs.org/react-native-view-shot/-/react-native-view-shot-3.3.0.tgz"
