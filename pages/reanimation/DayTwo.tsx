@@ -7,7 +7,7 @@ import Animated, {
 import React from 'react';
 
 const DayTwo = () => {
-  const triggerAnimation = useSharedValue(false);
+  const triggerAnimation = useSharedValue(true);
   const firstCardAnimation = useAnimatedStyle(() => {
     return {
       transform: [

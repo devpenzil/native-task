@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {View, StyleSheet} from 'react-native';
 import React, {useEffect} from 'react';
 import Animated, {
@@ -16,13 +17,13 @@ const Spherepage = ({children}: any) => {
 
   const s1 = useAnimatedStyle(() => {
     return {
-      top: withSpring(triggeranimation.value ? 200 : 150),
+      top: withSpring(triggeranimation.value ? 400 : 150),
       left: withSpring(triggeranimation.value ? 100 : 140),
     };
   });
   const s2 = useAnimatedStyle(() => {
     return {
-      top: withSpring(triggeranimation.value ? 150 : 100),
+      top: withSpring(triggeranimation.value ? 350 : 100),
       left: withSpring(triggeranimation.value ? 200 : 150),
     };
   });

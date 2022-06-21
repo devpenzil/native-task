@@ -2,13 +2,13 @@
 import {View} from 'react-native';
 import React from 'react';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
-import Splash from './pages/splashscreen/Splash';
+import Home from './pages/skia/Home';
 
 const App = () => {
   return (
     <GestureHandlerRootView style={{flex: 1}}>
       <View>
-        <Splash />
+        <Home />
       </View>
     </GestureHandlerRootView>
   );
