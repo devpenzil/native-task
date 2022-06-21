@@ -1,6 +1,7 @@
 import React from 'react';
 import {Canvas, Circle, Group, useCanvasRef} from '@shopify/react-native-skia';
 import {Text, View} from 'react-native';
+import FirstIcons from '../../assets/icons/FirstIcons';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
           <Circle r={128} cx={150} cy={300} color="magenta" />
         </Group>
       </Canvas>
+      <FirstIcons />
       <Text>Hello</Text>
     </View>
   );

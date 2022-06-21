@@ -5,7 +5,7 @@ import Spherepage from './Spherepage';
 const Main = () => {
   return (
     <>
-      <Spherepage>
+      <Spherepage animeCat={1}>
         <View style={style.container}>
           <View style={style.card}>
             <View>
