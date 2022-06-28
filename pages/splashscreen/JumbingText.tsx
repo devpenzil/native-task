@@ -8,24 +8,23 @@ import Animated, {
   useSharedValue,
   BounceInRight,
 } from 'react-native-reanimated';
+import {animeFirst} from './animationstyles';
 
 const JumbingText = () => {
   const trigger = useSharedValue(0);
+  let animStyle;
   useEffect(() => {
     setTimeout(() => {
       trigger.value = 40;
     }, 1200);
   }, []);
-  const animStyle = useAnimatedStyle(() => {
-    console.log(trigger);
-    return {
-      transform: [
-        {
-          translateX: withSpring(trigger.value === 40 ? 0 : -40),
-        },
-      ],
-    };
+  const some = animeFirst(trigger.value);
+  console.log('some =>', some);
+  animStyle = useAnimatedStyle(() => {
+    console.log({trigger});
+    return some;
   });
+  console.log('animstyle =>', animStyle);
   return (
     <View style={style.container}>
       <Animated.Image
